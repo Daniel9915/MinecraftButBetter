@@ -1,0 +1,55 @@
+Programmering 2021 2.g
+
+
+OOAD
+Step 1 - Krav
+Design spec
+Dyr: Får, Axolotl
+Terræn: Blomstereng
+Planter: Brombærbusk og birketræ 
+
+Kravspec
+1. Man skal kunne klikke på knapper på sit tastatur og lave dyr ved mus-koordinater
+2. Man skal kunne klikke på knapper på sit tastatur og lave planter ved mus-koordinater
+3. Man skal kunne klikke på knapper på sit tastatur og lave terræn ved mus-koordinater
+4. Dyrene skal bevæge sig rundt.
+5. Planterne skal vokse
+6. Terrænet skal få dyrene til at bevæge sig langsomt
+
+Step 2 - Analyse
+Ting/Beskrivelse Liste
+Axolotl = Bevæge sig rundt på skærmen
+Får = Bevæge sig rundt på skærmen
+Birketræ = Vokser langsomt
+Bombærbusk = Vokser langsomt
+Blomstereng = Får dyrene til at bevæge sig langsomt 
+
+
+Step 3 - Objektorienteret design
+Klasse og metode-liste
+
+Klasse (Verden)
+Den har dyr, planter, og terræn
+Skal detektere tastatur klik for at ligge dyr/planter/terræn
+
+Klasse (Dyr)
+Alle dyr kan bevæge sig
+De har en x, y position, størrelse osv
+
+Klasse (Planter)
+Alle planter kan vokse
+De har en x, y position, størrelse osv
+
+Klasse (Terræn)
+Alle terræn skal få dyrene til at bevæge sig langsommere
+De har en x,y position, størrelse osv
+
+
+Nedarvning Diagram (Rolle Diagram)
+
+
+
+
+
+
+
